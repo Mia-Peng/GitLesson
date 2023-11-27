@@ -1,0 +1,7 @@
+git --version
+git init            "建立儲存庫"
+git add 1127.html   "將特定檔案加入追蹤"
+git add .           "將全部檔案加入追蹤"
+git commit -m       "初始化"
+git status          "查詢暫存區狀態"
+git log             "查詢版本紀錄"
