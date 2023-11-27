@@ -1,7 +1,11 @@
 git --version
-git init            "建立儲存庫"
-git add 1127.html   "將特定檔案加入追蹤"
-git add .           "將全部檔案加入追蹤"
-git commit -m       "初始化"
-git status          "查詢暫存區狀態"
-git log             "查詢版本紀錄"
+git init                "專案初始化，建立儲存庫"
+git add 1127.html       "將特定檔案加入git管控"
+git add .               "將全部檔案加入git管控"
+git commit -m "註解"     "提交檔案到本地儲存庫"
+git status              "查詢暫存區狀態"
+git log                 "查詢版本紀錄"
+git checkout 版號        "切換到分支" (git checkout master切回最新版)
+git push                "將檔案同步至遠端"
+git clone http://..     "將檔案下載至其他電腦使用"(使用 'git clone+網址' 才有版控)
+git pull                "下載修改的專案"
